@@ -3,6 +3,7 @@ import useSearch from "../hooks/useSearch";
 import Buscador from "../components/Buscador";
 import SolicitarBtn from "../components/SolicitarBtn";
 import { productos } from "../data/productosMock";
+import ProveedorForm from "../components/ProveedorForm";
 
 export default function Proveedores() {
   const [query, setQuery] = useState("");
@@ -60,6 +61,7 @@ export default function Proveedores() {
             </div>
           </li>
         ))}
+        <ProveedorForm />
       </ul>
     </section>
   );

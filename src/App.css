@@ -220,3 +220,18 @@ main {
   border-radius: 10px;
   margin-top: 2rem;
 }
+
+.proveedores__resumen-btn {
+  background-color: #0074cc;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.proveedores__resumen-btn:hover {
+  background-color: #005fa3;
+}
